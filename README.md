@@ -61,20 +61,7 @@ Source Subreddit | Target Subreddit | Sentiment | Count
   * Usage - `./FullTraversal [filepath]`.
   * Example - `./FullTraversal data/connected.csv`.
   * :warning: ***This executable sets the stack size to unlimited in order to avoid stack overflow with large datasets.*** :warning:
-### For TAs ###
-* Test
-  * Allows TAs to run our unit tests.
-  * 25 test cases with 144 assertions written using 5 [custom testing datasets](https://github-dev.cs.illinois.edu/cs225-fa20/yashg3-adish2-jaehank2-dcl3/tree/master/tests) of varying sizes.
-  * Compiles [tests.cpp](https://github-dev.cs.illinois.edu/cs225-fa20/yashg3-adish2-jaehank2-dcl3/blob/master/tests/tests.cpp) using `make Test`
-  * Usage:
-    * Test all - `./Test`
-    * Test one function from [constructor, BFS, IDS, Tarjan, Kosaraju, DFSTraversal] - `./Test [function]`
-  * Example - `./Test [DFSTraversal]`
-* TA
-  * Sandbox for TAs to write their own function calls for grading.
-  * Compiles [datasetTesting.cpp](https://github-dev.cs.illinois.edu/cs225-fa20/yashg3-adish2-jaehank2-dcl3/blob/master/datasetTesting.cpp) using `make TA`.
-  * Usage - `./TA`
-  * :warning: ***This executable sets the stack size to unlimited in order to avoid stack overflow with large datasets.*** :warning:
+
 
 
 **Note:** Unlimited stack size command - `ulimit -s unlimited`
